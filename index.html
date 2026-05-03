@@ -1,1 +1,88 @@
-<html><head><title>My Tech and Arts portfolio</title><style>body { font-family: 'Segoe UI', sans-serif; background-color: #3C2A21; color: #E5E5E5; padding: 50px; line-height: 1.6; }h1 { color: #D5CEA3; border-bottom: 2px solid #706233; padding-bottom: 10px; }.bio { font-size: 1.2em; color: #B09B71; margin-bottom: 40px; }.card { background: #4D455D; padding: 25px; margin-bottom: 20px; border-left: 8px solid #706233; border-radius: 4px; box-shadow: 5px 5px 15px rgba(0,0,0,0.3); }h2 { color: #D5CEA3; margin-top: 40px; }</style></head><body><h1>My Tech and Arts portfolio</h1><p class='bio'>Computer Science student and Ghana-made crafts specialist</p><h2>My Featured Projects</h2><div class='card'>C++ Payroll Audit System</div><div class='card'>Traditional Instruments Digital Shop</div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Tech and Arts Portfolio</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            background-color: #f4f4f4; 
+            color: #333;
+        }
+        header {
+            background-color: #4b5320; /* Olive Green */
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .section-title {
+            color: #4b5320;
+            border-bottom: 2px solid #4b5320;
+            padding-bottom: 10px;
+            text-transform: uppercase;
+            margin-top: 30px;
+        }
+        .gallery-grid {
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+            gap: 20px; 
+            margin-top: 20px;
+        }
+        .gallery-item {
+            background: white; 
+            padding: 15px; 
+            border: 1px solid #ddd; 
+            text-align: center;
+        }
+        #contact {
+            text-align: center;
+            padding: 40px;
+            background-color: white;
+            margin-top: 50px;
+            border-top: 5px solid #4b5320;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Portfolio</h1>
+    <p>Showcasing Computer Science and West African Craftsmanship</p>
+</header>
+
+<div class="container">
+    <h2 class="section-title">Handcrafted Gallery</h2>
+    
+    <div class="gallery-grid">
+        <!-- Item 1: Wood Sculpture -->
+        <div class="gallery-item">
+            <img src="sculpture.jpg" alt="Ghanaian Wood Sculpture" style="width: 100%; height: auto; border-bottom: 2px solid #4b5320;">
+            <h3 style="color: #4b5320;">Traditional Wood Sculpture</h3>
+            <p>Authentic hand-carved art from Ghana.</p>
+        </div>
+
+        <!-- Item 2: Africa Ghana Made Bag -->
+        <div class="gallery-item">
+            <img src="bag.jpg" alt="Africa Ghana Made Bag" style="width: 100%; height: auto; border-bottom: 2px solid #4b5320;">
+            <h3 style="color: #4b5320;">Handmade Fabric Bag</h3>
+            <p>12-inch width durable traditional fabric.</p>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 style="color: #4b5320;">Contact & Location</h2>
+        <p style="font-size: 20px;"><strong>Location:</strong> Accra, Ghana</p>
+        <p style="font-size: 20px;"><strong>WhatsApp:</strong> <a href="https://wa.me/233501711548" style="color: #25D366; text-decoration: none;">+233 50 171 1548</a></p>
+        <p style="font-size: 20px;"><strong>Email:</strong> <a href="mailto:isaacnewtonzan@gmail.com" style="color: #4b5320;">isaacnewtonzan@gmail.com</a></p>
+    </section>
+</div>
+
+</body>
+</html>
